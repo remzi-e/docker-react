@@ -8,18 +8,12 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <code>Val!</code>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+          <iframe src='https://www.youtube.com/embed/s5_5ua03X0k'
+            frameBorder='0'
+            allow='autoplay; encrypted-media'
+            allowFullScreen
+            title='nebunia_lu_salam'
+          />
         </header>
       </div>
     );
